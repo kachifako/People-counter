@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+    
+
+
+body{
+    background-image: url(./images/station.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 7%;
+}
+
+
+h1{
+    color: rgb(248, 6, 26);
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    
+}
+
+h2{
+    color: rgb(50, 194, 134);
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+button{
+    background-color: rgb(236, 71, 90);
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 4;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    color: #e9cfd7;
+    font-size: 30px;
+    width: 250px;
+    box-shadow: 2px 3px 1px rgb(202, 85, 85);
+}
+
+button:hover{
+    background-color: crimson;
+    width: 255px;
+    font-size: 31px;
+}
+
+p{
+    color: bisque;
+    font-size: 28px;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:550px) {
+    body{
+        background-image: url(./images/station.jpg) ;
+        background-size: fit-content;
+        background-repeat: no-repeat;
+        margin-top: 20%;
+    }
+    
+    
+    h1{
+        color: rgb(248, 6, 26);
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        
+    }
+    
+    h2{
+        color: rgb(50, 194, 134);
+        font-family: poppins, sans-serif;
+        font-weight: 700;
+        font-size: 60px;
+    }
+    
+    button{
+       
+        font-size: 98%;
+        width: 60%;
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 3%;
+        margin-top: 4%;
+    
+    }
+    
+    button:hover{
+        background-color: crimson;
+        width: 62%;
+        font-size: 99%;
+    } 
+    
+    p{
+        font-size: 99%;
+    }
+
+}
